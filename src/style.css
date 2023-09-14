@@ -1,26 +1,28 @@
 :root {
---branding-color: #731d1d;
+--branding-color: #3892b0;
 --secondary-color: aliceblue; 
 --heading-font-family: 'Outfit',sans-serif;
 
 
 }
+
+
 h1 {
     font-family: var(--heading-font-family);
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
 }
 .intro {
     background-color: var(--branding-color);
     color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 120px 20px;
 
 }
 .content {
     color: rgb(33, 29, 29);
     padding: 120px 60px;
-}
+    
 .content p {
     font-size: 16px;
     
@@ -50,5 +52,8 @@ padding: 15px 30px;
     .content {
         padding: 0;
         text-align: center;
+    }
+    h1 {
+        font-size: 50px;
     }
 }
