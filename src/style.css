@@ -1,6 +1,6 @@
 :root {
 --branding-color: #3892b0;
---secondary-color: aliceblue; 
+--secondary-color: #d5fffb; 
 --heading-font-family: 'Outfit',sans-serif;
 
 
@@ -11,6 +11,9 @@ h1 {
     font-family: var(--heading-font-family);
     font-size: 80px;
     font-weight: bold;
+}
+h4 {
+    font-size: 48px;
 }
 .intro {
     background-color: var(--branding-color);
@@ -48,27 +51,7 @@ padding: 15px 30px;
     padding: 10px 20px;
 }
 
-@media (max-width: 960px) {
-    .content {
-        padding: 0;
-        text-align: center;
-    }
-    h1 {
-        font-size: 50px;
-    }
 
-    .about-section {
-        padding: 0;
-        text-align: center;
-
-    }
-    .about-me {
-        padding: 0;
-        text-align: center;
-        
-        
-    }
-}
 
 .about-section {
     padding: 80px 20px;
@@ -98,4 +81,73 @@ padding: 15px 30px;
     text-align: center;
     padding: 40px;
     font-family: var(--heading-font-family);
+}
+footer {
+    margin: 40px 0;
+    font-family: var(--heading-font-family);
+}
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 80px;
+    border-radius: 10px;
+
+}
+footer .contact-box p {
+    margin: 0;
+
+}
+footer .email-link {
+    font-family: var(--heading-font-family);
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+   
+    padding: 10px 14px;
+    
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: var(--secondary-color);
+    background: var(--branding-color);
+}
+
+@media (max-width: 960px) {
+    .content {
+        padding: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .about-section {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .about-me {
+        padding: 0;
+        text-align: center;
+    }
+    h4 {
+        font-size: 24px;
+    }
 }
