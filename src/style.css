@@ -92,6 +92,10 @@ padding: 15px 30px;
 .about-section img {
     padding: 18px 0;
   
-    
-    
+}
+
+.contents {
+    text-align: center;
+    padding: 40px;
+    font-family: var(--heading-font-family);
 }
