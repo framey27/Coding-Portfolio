@@ -126,6 +126,39 @@ footer .social-links a:hover {
     color: var(--secondary-color);
     background: var(--branding-color);
 }
+nav {
+    font-family: var(--heading-font-family);
+    background: var(--secondary-color);
+    color: #3892b0;
+}
+
+.content-container h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+.content-container h3 {
+    text-align: center;
+    font-family: var(--heading-font-family);
+    padding: 10px 0 0 0;
+}
+
+.content-container p {
+    text-align: center;
+    font-family: var(--heading-font-family);
+    margin-top: 1px;
+}
+.weatherImg {
+    margin: 100px auto;
+}
+.tag {
+    margin-top: 1px;
+    
+}
+.tagOne {
+    margin-top: 1px;
+    
+}
 
 @media (max-width: 960px) {
     .content {
