@@ -1,6 +1,6 @@
 :root {
 --branding-color: #3892b0;
---secondary-color: #d5fffb; 
+--secondary-color: #e8f3f2; 
 --heading-font-family: 'Outfit',sans-serif;
 
 
@@ -20,6 +20,7 @@ h4 {
     color: var(--secondary-color);
     text-align: center;
     padding: 100px 20px;
+
 
 }
 .content {
@@ -54,7 +55,7 @@ padding: 15px 30px;
 
 
 .about-section {
-    padding: 80px 20px;
+    padding: 30px 20px;
 
 }
 
@@ -83,12 +84,12 @@ padding: 15px 30px;
     font-family: var(--heading-font-family);
 }
 footer {
-    margin: 40px 0;
+    margin-top: 50px;
     font-family: var(--heading-font-family);
 }
 footer .contact-box {
     background: var(--secondary-color);
-    padding: 30px 80px;
+    padding: 20px 80px;
     border-radius: 10px;
 
 }
@@ -103,7 +104,7 @@ footer .email-link {
     color: black;
     font-size: 24px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
 }
 footer .email-link:hover {
@@ -126,6 +127,16 @@ footer .social-links a:hover {
     color: var(--secondary-color);
     background: var(--branding-color);
 }
+
+.contact-page {
+    margin: 0;
+}
+
+.container img {
+    margin-top: 20px;
+}
+
+
 nav {
     font-family: var(--heading-font-family);
     background: var(--secondary-color);
